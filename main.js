@@ -17,3 +17,9 @@ let numbers = [2,3,5,8]
 let prod = 1
 numbers.forEach(function(e){prod *= e;})
 console.log(prod)
+let array = [2,5,8,15,0,6,20,3]
+for (let i = 0 ; i<array.length; i++) {
+   if (array[i] < 10 && array[i] > 5){
+    console.log(array[i])}
+}
+
